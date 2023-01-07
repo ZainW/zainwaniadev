@@ -4,13 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
-    "build": "NITRO_PRESET=vercel-edge nuxi build",
+    "build": "nuxi build",
     "generate": "nuxi generate",
     "preview": "nuxi preview"
   },
   "devDependencies": {
     "@nuxt-themes/alpine": "^1.0.1",
-    "@unocss/nuxt": "^0.48.2",
     "nuxt": "^3.0.0"
   }
 }
