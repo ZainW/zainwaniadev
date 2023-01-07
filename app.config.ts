@@ -1,7 +1,7 @@
 export default defineAppConfig({
   alpine: {
-    title: 'Alpine',
-    description: 'The minimalist blog theme',
+    title: 'Zain Wania',
+    description: 'Blog about web development, design, and more.',
     image: {
       src: '/social-card-preview.png',
       alt: 'An image showcasing my project.',
