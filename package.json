@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
-    "build": "nuxi build",
+    "build": "NITRO_PRESET=vercel-edge nuxi build",
     "generate": "nuxi generate",
     "preview": "nuxi preview"
   },
