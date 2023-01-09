@@ -31,7 +31,8 @@ export default defineAppConfig({
         icon: 'uil:linkedin',
         label: 'LinkedIn',
         href: 'https://www.linkedin.com/in/zainw/'
-      }
+      },
+      github: 'ZainW',
     },
     form: {
       successMessage: 'Message sent. Thank you!',
