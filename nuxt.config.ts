@@ -5,5 +5,10 @@ export default defineNuxtConfig({
   ],
   plausible: {
     domain: 'zainwania.dev'
+  },
+  colorMode: {
+    preference: 'dark',
+    fallback: 'dark',
+    classSuffix: ''
   }
 })
