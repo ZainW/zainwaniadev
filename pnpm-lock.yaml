@@ -2,10 +2,12 @@ lockfileVersion: 5.4
 
 specifiers:
   '@nuxt-themes/alpine': ^1.0.1
+  '@nuxtjs/plausible': ^0.2.0
   nuxt: ^3.0.0
 
 devDependencies:
   '@nuxt-themes/alpine': 1.0.2
+  '@nuxtjs/plausible': 0.2.0
   nuxt: 3.0.0
 
 packages:
@@ -970,6 +972,18 @@ packages:
       '@nuxt/kit': 3.0.0
       lodash.template: 4.5.0
       pathe: 1.0.0
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
+
+  /@nuxtjs/plausible/0.2.0:
+    resolution: {integrity: sha512-mke+eW94PCca7zK0kNpNA9ULat5JCrBP2JUCmas6ZKpskU3+IaBv2OzWYzWJb/SsungfV9a/dukKbjAJeBTzhQ==}
+    dependencies:
+      '@nuxt/kit': 3.0.0
+      defu: 6.1.1
+      pathe: 1.0.0
+      plausible-tracker: 0.3.8
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -4838,6 +4852,11 @@ packages:
       jsonc-parser: 3.2.0
       mlly: 1.1.0
       pathe: 1.0.0
+    dev: true
+
+  /plausible-tracker/0.3.8:
+    resolution: {integrity: sha512-lmOWYQ7s9KOUJ1R+YTOR3HrjdbxIS2Z4de0P/Jx2dQPteznJl2eX3tXxKClpvbfyGP59B5bbhW8ftN59HbbFSg==}
+    engines: {node: '>=10'}
     dev: true
 
   /postcss-calc/8.2.4_postcss@8.4.21:
