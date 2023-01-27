@@ -19,7 +19,7 @@ export default defineAppConfig({
     footer: {
       credits: {
         enabled: true, // possible value are : true | false
-        repository: 'https://www.github.com/nuxt-themes/alpine' // our github repository
+        repository: 'https://www.github.com/ZainW/zainwaniadev' // our github repository
       },
       navigation: true, // possible value are : true | false
       alignment: 'center', // possible value are : 'none' | 'left' | 'center' | 'right'
