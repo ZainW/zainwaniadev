@@ -1,14 +1,15 @@
 export default defineNuxtConfig({
   extends: '@nuxt-themes/alpine',
   modules: [
-  '@nuxtjs/plausible'
+  '@nuxtjs/plausible',
+  '@nuxthq/studio'
   ],
   plausible: {
     domain: 'zainwania.dev'
   },
   colorMode: {
-    preference: 'dark',
-    fallback: 'dark',
+    preference: 'light',
+    fallback: 'light',
     classSuffix: ''
   },
   app: {
