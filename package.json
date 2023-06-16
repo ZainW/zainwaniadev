@@ -9,9 +9,8 @@
     "preview": "nuxi preview"
   },
   "devDependencies": {
-    "@nuxt-themes/alpine": "^1.5.4",
-    "@nuxthq/studio": "^0.12.0",
-    "@nuxtjs/plausible": "^0.2.1",
-    "nuxt": "^3.4.3"
+    "@nuxt-themes/alpine": "^1.6.1",
+    "@nuxthq/studio": "^0.12.1",
+    "@nuxtjs/plausible": "^0.2.1"
   }
 }
